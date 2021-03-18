@@ -244,12 +244,12 @@
 <li><p>右上角找到“菜单‘，然后选中”工具“，单击”注册设备“</p>
 </li>
 <li><p>勾选所有设备，然后点击”注册“</p>
-<p><img src="Untitled.png" alt="Untitled"></p>
+<p><img src="/2021/03/18/%E4%BD%BF%E7%94%A8%E5%8D%8E%E4%B8%BA%E6%A8%A1%E6%8B%9F%E5%99%A8eNSP%E6%90%AD%E5%BB%BA%E7%BD%91%E7%BB%9C%E8%87%AA%E5%8A%A8%E5%8C%96%E5%9C%BA%E6%99%AF/Untitled.png" alt="勾选所有设备，然后点击”注册“"></p>
 </li>
 </ul>
 <h1 id="使用VirtualBox安装自动化Ubuntu-18-04-20-04"><a href="#使用VirtualBox安装自动化Ubuntu-18-04-20-04" class="headerlink" title="使用VirtualBox安装自动化Ubuntu 18.04 | 20.04"></a>使用VirtualBox安装自动化Ubuntu 18.04 | 20.04</h1><ul>
 <li><p>打开VirtualBox，在右上角单击”New“</p>
-<p>![Untitled](Untitled 1.png)</p>
+<p>![打开VirtualBox，在右上角单击”New“](Untitled 1.png)</p>
 </li>
 <li><p>分配内存大小 — 根据电脑配置，为虚拟机分配内存，1G或2G都行（当然笔者宿主机内存较大，选择了4G），然后Next继续</p>
 </li>
@@ -258,12 +258,12 @@
 <li><p>后面的几步都选择默认勾选 — ”VDI“ + ”Dynamic allocated“</p>
 </li>
 <li><p>分配存储大小，建议配置15G左右，分配太小可能会无法安装，单击”Create“后退回到主界面</p>
-<p>![](Untitled 2.png)</p>
+<p>![分配存储大小](Untitled 2.png)</p>
 </li>
 <li><p>这时选中你刚创建的ubuntu主机，然后单击上方菜单的”Start“运行</p>
 </li>
 <li><p>此时弹出运行界面，你需要选择你要安装的镜像的路径</p>
-<p>![](Untitled 3.png)</p>
+<p>![选择你要安装的镜像的路径](Untitled 3.png)</p>
 </li>
 <li><p>后续就会进入ubuntu的安装步骤（此处省略ubuntu后续安装步骤）</p>
 </li>
@@ -280,11 +280,11 @@
 </ul>
 <h1 id="使用Telnet来配置S3700"><a href="#使用Telnet来配置S3700" class="headerlink" title="使用Telnet来配置S3700"></a>使用Telnet来配置S3700</h1><ul>
 <li><p>设置Cloud</p>
-<p>![](Untitled 4.png)</p>
+<p>![设置Cloud](Untitled 4.png)</p>
 <p>端口增加完成后，在端口映射入端口和出端口选择不同端口（顺序不影响），然后勾选双向通道，单击”增加“，此时端口映射表会增加一对端口。</p>
 </li>
 <li><p>Cloud设置完毕后，Cloud可以与SW1进行连接了，下图为测试拓扑</p>
-<p>![](Untitled 5.png)</p>
+<p>![测试拓扑](Untitled 5.png)</p>
 </li>
 <li><p>在SW1上配置telnet用户与密码（默认开启telnet）</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#</span></span><br><span class="line">aaa</span><br><span class="line"> local-user sht1 password cipher Huawei</span><br><span class="line"> local-user sht1 privilege level 15</span><br><span class="line"> local-user sht1 service-type telnet</span><br><span class="line"><span class="comment">#</span></span><br><span class="line">interface Vlanif1</span><br><span class="line"> ip address 192.168.50.1 255.255.255.0</span><br><span class="line"><span class="comment">#</span></span><br><span class="line">user-interface vty 0 4</span><br><span class="line"> authentication-mode aaa</span><br><span class="line"> user privilege level 15</span><br><span class="line"> protocol inbound all</span><br></pre></td></tr></table></figure></li>
