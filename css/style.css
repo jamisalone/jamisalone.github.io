@@ -1,14 +1,14 @@
 :root {
   --background-color: #fff;
   --second-background-color: #f7f7f7;
-  --primary-color: #f96;
+  --primary-color: #099;
   --first-text-color: #484853;
   --second-text-color: #4c4c57;
   --third-text-color: #808091;
   --fourth-text-color: #ededef;
   --default-text-color: #50505c;
   --border-color: #b3b3b3;
-  --selection-color: #ffa375;
+  --selection-color: #00bdbd;
   --shadow-color: rgba(0,0,0,0.2);
   --shadow-hover-color: rgba(0,0,0,0.28);
   --scrollbar-color: rgba(200,200,200,0.6);
@@ -22,14 +22,14 @@
   :root {
     --background-color: #fff;
     --second-background-color: #f7f7f7;
-    --primary-color: #f96;
+    --primary-color: #099;
     --first-text-color: #484853;
     --second-text-color: #4c4c57;
     --third-text-color: #808091;
     --fourth-text-color: #ededef;
     --default-text-color: #50505c;
     --border-color: #b3b3b3;
-    --selection-color: #ffa375;
+    --selection-color: #00bdbd;
     --shadow-color: rgba(0,0,0,0.2);
     --shadow-hover-color: rgba(0,0,0,0.28);
     --scrollbar-color: rgba(200,200,200,0.6);
@@ -44,14 +44,14 @@
   :root {
     --background-color: #383940;
     --second-background-color: #32333a;
-    --primary-color: #f96;
+    --primary-color: #099;
     --first-text-color: #d2d2d7;
     --second-text-color: #cbcbd1;
     --third-text-color: #9595a2;
     --fourth-text-color: #242429;
     --default-text-color: #bebec6;
     --border-color: #5c5e6a;
-    --selection-color: #ffa375;
+    --selection-color: #00bdbd;
     --shadow-color: rgba(128,128,128,0.2);
     --shadow-hover-color: rgba(128,128,128,0.28);
     --scrollbar-color: #32333a;
@@ -65,14 +65,14 @@
 .light-mode {
   --background-color: #fff;
   --second-background-color: #f7f7f7;
-  --primary-color: #f96;
+  --primary-color: #099;
   --first-text-color: #484853;
   --second-text-color: #4c4c57;
   --third-text-color: #808091;
   --fourth-text-color: #ededef;
   --default-text-color: #50505c;
   --border-color: #b3b3b3;
-  --selection-color: #ffa375;
+  --selection-color: #00bdbd;
   --shadow-color: rgba(0,0,0,0.2);
   --shadow-hover-color: rgba(0,0,0,0.28);
   --scrollbar-color: rgba(200,200,200,0.6);
@@ -85,14 +85,14 @@
 .dark-mode {
   --background-color: #383940;
   --second-background-color: #32333a;
-  --primary-color: #f96;
+  --primary-color: #099;
   --first-text-color: #d2d2d7;
   --second-text-color: #cbcbd1;
   --third-text-color: #9595a2;
   --fourth-text-color: #242429;
   --default-text-color: #bebec6;
   --border-color: #5c5e6a;
-  --selection-color: #ffa375;
+  --selection-color: #00bdbd;
   --shadow-color: rgba(128,128,128,0.2);
   --shadow-hover-color: rgba(128,128,128,0.28);
   --scrollbar-color: #32333a;
@@ -539,14 +539,14 @@ button {
 :root {
   --background-color: #fff;
   --second-background-color: #f7f7f7;
-  --primary-color: #f96;
+  --primary-color: #099;
   --first-text-color: #484853;
   --second-text-color: #4c4c57;
   --third-text-color: #808091;
   --fourth-text-color: #ededef;
   --default-text-color: #50505c;
   --border-color: #b3b3b3;
-  --selection-color: #ffa375;
+  --selection-color: #00bdbd;
   --shadow-color: rgba(0,0,0,0.2);
   --shadow-hover-color: rgba(0,0,0,0.28);
   --scrollbar-color: rgba(200,200,200,0.6);
@@ -560,14 +560,14 @@ button {
   :root {
     --background-color: #fff;
     --second-background-color: #f7f7f7;
-    --primary-color: #f96;
+    --primary-color: #099;
     --first-text-color: #484853;
     --second-text-color: #4c4c57;
     --third-text-color: #808091;
     --fourth-text-color: #ededef;
     --default-text-color: #50505c;
     --border-color: #b3b3b3;
-    --selection-color: #ffa375;
+    --selection-color: #00bdbd;
     --shadow-color: rgba(0,0,0,0.2);
     --shadow-hover-color: rgba(0,0,0,0.28);
     --scrollbar-color: rgba(200,200,200,0.6);
@@ -582,14 +582,14 @@ button {
   :root {
     --background-color: #383940;
     --second-background-color: #32333a;
-    --primary-color: #f96;
+    --primary-color: #099;
     --first-text-color: #d2d2d7;
     --second-text-color: #cbcbd1;
     --third-text-color: #9595a2;
     --fourth-text-color: #242429;
     --default-text-color: #bebec6;
     --border-color: #5c5e6a;
-    --selection-color: #ffa375;
+    --selection-color: #00bdbd;
     --shadow-color: rgba(128,128,128,0.2);
     --shadow-hover-color: rgba(128,128,128,0.28);
     --scrollbar-color: #32333a;
@@ -603,14 +603,14 @@ button {
 .light-mode {
   --background-color: #fff;
   --second-background-color: #f7f7f7;
-  --primary-color: #f96;
+  --primary-color: #099;
   --first-text-color: #484853;
   --second-text-color: #4c4c57;
   --third-text-color: #808091;
   --fourth-text-color: #ededef;
   --default-text-color: #50505c;
   --border-color: #b3b3b3;
-  --selection-color: #ffa375;
+  --selection-color: #00bdbd;
   --shadow-color: rgba(0,0,0,0.2);
   --shadow-hover-color: rgba(0,0,0,0.28);
   --scrollbar-color: rgba(200,200,200,0.6);
@@ -623,14 +623,14 @@ button {
 .dark-mode {
   --background-color: #383940;
   --second-background-color: #32333a;
-  --primary-color: #f96;
+  --primary-color: #099;
   --first-text-color: #d2d2d7;
   --second-text-color: #cbcbd1;
   --third-text-color: #9595a2;
   --fourth-text-color: #242429;
   --default-text-color: #bebec6;
   --border-color: #5c5e6a;
-  --selection-color: #ffa375;
+  --selection-color: #00bdbd;
   --shadow-color: rgba(128,128,128,0.2);
   --shadow-hover-color: rgba(128,128,128,0.28);
   --scrollbar-color: #32333a;
@@ -915,10 +915,27 @@ pre .javascript .function {
   transition-delay: 0s, 0s, 0s, 0s, 0s;
   transition-duration: 0.2s, 0.2s, 0.2s, 0.2s, 0.2s;
   transition-timing-function: ease, ease, ease, ease, ease-in-out;
-  background: var(--background-color);
-  border: 0;
-  right: 0;
-  top: 0;
+  color: #fff;
+  right: 2px;
+  top: 2px;
+}
+.highlight-container {
+  background: #21252b;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px 0 rgba(0,0,0,0.4);
+  padding-top: 20px;
+  margin-top: 10px;
+}
+.highlight-container::before {
+  background: #fc625d;
+  border-radius: 50%;
+  box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
+  content: ' ';
+  height: 12px;
+  left: 12px;
+  margin-top: -10px;
+  position: absolute;
+  width: 12px;
 }
 .page-container {
   position: relative;
@@ -1840,7 +1857,7 @@ pre .javascript .function {
   box-sizing: border-box;
   width: 100%;
   overflow: hidden;
-  background: url("/images/first_screen_background.jpg") center center/cover no-repeat;
+  background: url("/images/SpaceX_rocket.jpg") center center/cover no-repeat;
   background-position-y: 76px;
 }
 @media (max-width: 780px) {
