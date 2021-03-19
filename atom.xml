@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-03-19T11:10:30.851Z</updated>
+  <updated>2021-03-19T12:09:52.730Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Top 5 Skills for 2021 [ICT]</title>
+    <link href="http://example.com/2021/03/19/Top-5-Skills-for-2021-ICT/"/>
+    <id>http://example.com/2021/03/19/Top-5-Skills-for-2021-ICT/</id>
+    <published>2021-03-19T12:03:23.000Z</published>
+    <updated>2021-03-19T12:09:52.730Z</updated>
+    
+    <content type="html"><![CDATA[<div align="middle"><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=1462875618&auto=1&height=66"></iframe></div><h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p>往常，笔者是比较反感“人生必读的10本书”、“年度5佳技能”这类标题的。但是我们又常常陷于迷茫，挣扎于寻找目标。有时候，这类文章、视频又帮助我们重新找到了学习目标，也让我们在短时间(视频通常为10分钟左右)再次把握了行家为我们分析的行业前景和机会。</p><p>这类标题有利有弊，当你关闭掉消极情绪的开关，然后换个角度，重新审视这类文章、视频时，会发现它还是可以为你带来灵感。</p><h1 id="Content-of-Video"><a href="#Content-of-Video" class="headerlink" title="Content of Video"></a>Content of Video</h1><h2 id="Time-to-learn"><a href="#Time-to-learn" class="headerlink" title="Time to learn"></a>Time to learn</h2><p><img src="/2021/03/19/Top-5-Skills-for-2021-ICT/Untitled.png" alt="Untitled"></p><p>David提到，当他学习Voice over IP时，他冲在了技术的最前列；接着，整个行业从传统电话网络，改变为Voice over IP。当他学习OpenFlow、网络自动化、网络编程时，他再次冲到了最前列。</p><p>David说他喜欢乘风破浪，因为他认为这样可以加快他的职业生涯。在谈论Top skills之前，他先谈论了职业路径。</p><h2 id="4-Paths"><a href="#4-Paths" class="headerlink" title="4 Paths"></a>4 Paths</h2><p><img src="/2021/03/19/Top-5-Skills-for-2021-ICT/Untitled%201.png" alt="Untitled 1"></p><ul><li>Dev (Development)</li><li>Ethical hacking 文明黑客/ Cybersecurity 网络安全</li><li>Networking</li><li>Analytics / Data Science / ML / AI</li></ul><p>关键点在于选择你所享受的事情。But again，你可以把成为开发者作为你的主要路径，但是也可以拥有很强的网络知识(strong knowledge of networking)；或者，你可以成为一个网络工程师，但是对编程也有深入的理解。所以，成为一个对编程有深入理解的优秀网络工程师。</p><p>用Python作为例子，区分你和别人的地方在于，你在掌握了核心技能的同时，在多个领域也有所涉猎。</p><h2 id="Top-5-skills"><a href="#Top-5-skills" class="headerlink" title="Top 5 skills"></a>Top 5 skills</h2><ul><li>Python —上面4个职业路径，如果你不会Python，都会使你处于劣势；David形容学习它就是<em><strong>it really opens up doors for you。</strong></em></li><li>Linux —The world runs on Linux。无论是在Cloud还是IoT设备上，你都需要掌握Linux。</li><li>Cloud — Networking已经改变多年，从Amazon的AWS变得多么强大，你就能看出Cloud的趋势。你不需要理解AWS，Azure，Google Cloud等中的每一个，但你至少可以去理解一些云技术。</li><li>Networking — 世界依靠网络来连接。如果你是个开发者，理解网络基础同样重要，什么情况下TCP比UDP好使？什么情况下UDP更好？这些基础将帮助你脱颖而出。</li><li>APIs — 同样，APIs在今日世界也非常重要，当我们谈到应用时，它们通过Interfaces交互。</li><li>(Bonus) Virtualization：理解VM与容器的不同点，去了解docker和kubernetes。</li></ul><h1 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h1><p>只为学习、记录、分享，取你所需。</p>]]></content>
+    
+    
+    <summary type="html">David Bombal提供的2021能够帮助网工乘风破浪的Top 5技能。虽然标题不讨喜，但建议还是值得一听。</summary>
+    
+    
+    
+    <category term="Career" scheme="http://example.com/categories/Career/"/>
+    
+    
+    <category term="职业" scheme="http://example.com/tags/%E8%81%8C%E4%B8%9A/"/>
+    
+    <category term="网络工程师" scheme="http://example.com/tags/%E7%BD%91%E7%BB%9C%E5%B7%A5%E7%A8%8B%E5%B8%88/"/>
+    
+    <category term="Future of networking" scheme="http://example.com/tags/Future-of-networking/"/>
+    
+  </entry>
   
   <entry>
     <title>Any Future for Network Engineers?</title>
